@@ -4,16 +4,10 @@ This code is part of the assignment on Text Information Systems course at the Un
 
 In the final part of MP2, you will participate in a search competition where you will create a Search Engine using MeTA, similar to what you did for Part 2. Your ranker will be evaluated using NDCG scores on 3 relevance datasets: Cranfield dataset, APNews dataset, and the Faculty dataset collected and annotated by you and your classmates. 
 
-**The evaluation results will be displayed on the leaderboard: [LINK COMING SOON]**
-
 Also, you are free to edit all files **except**:
 - .gitlab-ci.yml
 - timeout.py 
 - competition.py
-
-## Due: ~~Oct 13, 2019~~ Oct 20, 2019 at 11:59 pm
-
-**NOTE:** If you've completed Part2, you should be familiar with the basics: Setup, Indexing and Searching the Data. We've included these sections in this README again for convenience. So, feel free to skip directly to the Competition Tasks section!
 
 ## Setup
 
@@ -94,12 +88,3 @@ For your code to be ranked in the leaderboard, you will need to follow the instr
 You are free to use any metapy ranker, fine-tune various parameter settings or even your use your own implementation of ranking functions. Feel free to improvise and create your own rankers! You may use the provided cranfield dataset to evaluate your rankers/parameter settings locally but remember that the leaderboard ranking is based on the performance on all the 3 datasets, so please make sure you do not overfit. 
 
 To see how well you perform in the leaderboard, you need to first submit your choice in GitLab by editing the **load_ranker** function inside **search_eval.py** to return the ranker of your choice.There are no restrictions on the number of submissions.
-
-## Grading
-
-You must beat the baseline on the leaderboard to get full credit.
-
-## Bonus: Top ranked in Search Competition Leaderboard
-
-Try to get a top position in the competition leaderboard. The higher your rank is, the more extra credit you will receive.
-Our grading formula for the competition is  5-(Rank-1)/10, where Rank is the position of the student.
